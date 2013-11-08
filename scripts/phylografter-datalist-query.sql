@@ -1,0 +1,1 @@
+SELECT study, id FROM stree GROUP BY study, id
