@@ -14,8 +14,8 @@ In order for this script to work, you'll need to have [Graph-tool](http://graph-
 1. Run fetch-taxonomy.sh to retreive the latest copy of the NCBI taxonomy.
 2. Run make-taxonomy-graph.py to create a compressed GML file ncbi/ncbi.xml.gz
 3. Use the query in phylografter-datalist-query.sql on your phylografter database of choice. 
-      If you use phpmyadmin you can export the needed CSV file directly from the web interface.
-4. Make sure the stree.csv file is in the /trees directory.
+      If you use [phpmyadmin](http://www.phpmyadmin.net/home_page/index.php) you can export the needed CSV file directly from the web interface.
+4. Save the stree.csv file in the /trees directory.
 5. Run tree-cache.py to pull all the trees from phylografter and make a local repository to work with.
       This may take quite a long time since it is downloading all 6000+ trees from Phylografter. 
 6. Run graph-to-json.py
