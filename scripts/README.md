@@ -1,7 +1,7 @@
 graphtojson
 ===========
 
-Creates D3 compatible JSON documents from a graph generated from all trees in Phylografter and the NCBI taxonomy. Designed as a piece of [Phylografter](https://github.com/OpenTreeOfLife/phylografter), but might serve other uses.
+Creates D3 compatible JSON documents from a graph generated from all trees in Phylografter and the NCBI and OTT taxonomies. Designed as a piece of [Phylografter](https://github.com/OpenTreeOfLife/phylografter), but might serve other uses, and can be used locally.
 
 
 <H3><STRONG>Prerequisites:</H3></STRONG> 
