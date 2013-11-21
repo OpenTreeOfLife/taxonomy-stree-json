@@ -12,7 +12,7 @@ Creates D3 compatible JSON documents from a graph generated from all trees in Ph
 2. Run make-taxonomy-graph.py to create a compressed GML file ncbi/ncbi.xml.gz
 3. Use the query in phylografter-datalist-query.sql on your phylografter database of choice. 
       If you use phpmyadmin you can export the needed CSV file directly from the web interface.
-4. Make sure the stree.csv file is in the same directory as graph-to-json.py
+4. Make sure the stree.csv file is in the /trees directory.
 5. Run tree-cache.py to pull all the trees from phylografter and make a local repository to work with.
       This may take quite a long time since it is downloading all 6000+ trees from Phylografter. 
 6. Run graph-to-json.py
