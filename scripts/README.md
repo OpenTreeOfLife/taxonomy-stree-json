@@ -3,9 +3,12 @@ graphtojson
 
 Creates D3 compatible JSON documents from a graph generated from all trees in Phylografter and the NCBI taxonomy. Designed as a piece of [Phylografter](https://github.com/OpenTreeOfLife/phylografter), but might serve other uses.
 
-(1)Prerequisites: In order for this script to work, you'll need to have [Graph-tool](http://graph-tool.skewed.de/) and [IVY](https://github.com/rhr/ivy) installed and working. You'll also need an active Internet connection to pull from Phylografter and access the NCBI servers to grab the latest [taxonomy](tp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/). 
 
-(2) Example Use:
+<H3><STRONG>Prerequisites:</H3></STRONG> 
+In order for this script to work, you'll need to have [Graph-tool](http://graph-tool.skewed.de/) and [IVY](https://github.com/rhr/ivy) installed and working. You'll also need an active Internet connection to pull from Phylografter and access the NCBI servers to grab the latest [taxonomy](tp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/). 
+
+
+<H3><STRONG>Example Use:</H3></STRONG>
 
 
 1. Run fetch-taxonomy.sh to retreive the latest copy of the NCBI taxonomy.
@@ -21,7 +24,7 @@ Creates D3 compatible JSON documents from a graph generated from all trees in Ph
 8. That should be it, when browsing the Phylografter study viewer, if a tree has a JSON file, 
    you should see an option to view the taxonomy graph next to the tree name.
 
-Alternatively:
+</H3></STRONG>Alternative Use:</H3></STRONG>
 
 7. Complete steps 1 through 6 above.
 8. Copy the single line of JSON for your tree file of choice. 
