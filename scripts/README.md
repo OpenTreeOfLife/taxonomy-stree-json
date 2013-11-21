@@ -24,7 +24,7 @@ In order for this script to work, you'll need to have [Graph-tool](http://graph-
 8. That should be it, when browsing the Phylografter study viewer, if a tree has a JSON file, 
    you should see an option to view the taxonomy graph next to the tree name.
 
-</H3></STRONG>Alternative Use:</H3></STRONG>
+<H3><STRONG>Alternative Use:</H3></STRONG>
 
 7. Complete steps 1 through 6 above.
 8. Copy the single line of JSON for your tree file of choice. 
