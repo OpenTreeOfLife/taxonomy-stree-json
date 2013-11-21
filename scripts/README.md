@@ -11,13 +11,13 @@ In order for this script to work, you'll need to have [Graph-tool](http://graph-
 <H3><STRONG>Example Use:</H3></STRONG>
 
 
-1. Run `sh fetch-(ncbi/ott)-taxonomy.sh` to retreive the latest copy of the NCBI taxonomy.
+1. Run `sh fetch-(ncbi/ott)-taxonomy.sh` to retreive the latest copy of your preffered taxonomy.
 2. Run `python make-taxonomy-graph.py` to create a compressed GML of the taxonomy in /taxonomy.
 3. Use the query in phylografter-datalist-query.sql on your phylografter database of choice. 
       If you use [phpmyadmin](http://www.phpmyadmin.net/home_page/index.php) you can export the needed CSV file directly from the web interface.
 4. Save the stree.csv file in the /trees directory.
 5. Run `python tree-cache.py` to pull all the trees from phylografter and make a local repository to work with.
-      This may take quite a long time since it is downloading all 6000+ trees from Phylografter. 
+      This may take quite a long time since it is downloading all 6000+ trees from Phylografter. It is done as a separate, single step in order to reduce queries to the Phylografter server.
 6. Run `python graph-to-json.py`
       This also may take quite awhile as it has to build the visualizations for all 6k+ working trees.
 7. Copy the JSON directory to your /phylografter/static/ directory.
