@@ -1,7 +1,10 @@
 #!/bin/bash
 
-mkdir taxonomy/ncbi
-cd taxonomy/ncbi
-wget ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump.tar.gz
-tar xvfz taxdump.tar.gz
-rm taxdump.tar.gz
+base=taxdump
+mkdir taxonomy/
+cd taxonomy/
+mkdir ncbi/
+cd ncbi/
+wget ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/$base.tar.gz
+tar xvfz $base.tar.gz
+rm $base.tar.gz
