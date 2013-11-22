@@ -28,7 +28,7 @@ In order for this script to work, you'll need to have [Graph-tool](http://graph-
 
 7. Complete steps 1 through 6 above.
 8. Copy the single line of JSON for your tree file of choice. 
-8. Paste the copied text into the graphtojson.html file included in the repo to display it locally replacing the line:
+8. Paste the copied text into the static-graph.html file included in the repo to display it locally replacing the line:
 <pre>
 var data = //PASTE JSON STRING HERE;
 with
