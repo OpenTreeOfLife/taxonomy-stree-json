@@ -173,9 +173,10 @@ def build_json(choice):
                     ### Use function in TreeGraph.py to parse Graph(gv) into JSON
                     print "Generating JSON..."
                     result = tg.graph_json(gv, pos=pos, ecolor=ecolor, ewidth=ewidth, vcolor=vcolor, vsize=vsize)
+                    result = result[1:] #strip the original { from the json so we can insert the time stamp
                     date = time.strftime("%Y%m%d%I%M%S") # grab the system date for the filename and convert it to a string
                     treeid = str(stree) # convert stree int into a string
-                    timestamp = "{\"timestamp\": \"%s\"}" %date
+                    timestamp = "{\"timestamp\": \"%s\", " %date
                     final_result = timestamp+result # add date to first line of json file for later parsing
                     path = str(os.path.dirname(os.path.realpath(__file__)))
                     path = path[:-8]
