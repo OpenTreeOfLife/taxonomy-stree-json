@@ -5,7 +5,7 @@ Creates D3 compatible JSON documents from a graph generated from all trees in Ph
 
 
 <H3><STRONG>Prerequisites:</H3></STRONG> 
-In order for this script to work, you'll need to have [Graph-tool](http://graph-tool.skewed.de/) and [IVY](https://github.com/rhr/ivy) installed and working. You'll also need an active Internet connection to pull from Phylografter and access the [NCBI](tp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/) and [OTT](http://files.opentreeoflife.org/ott/) servers. 
+In order for this script to work, you'll need to have [Graph-tool](http://graph-tool.skewed.de/) and [IVY](https://github.com/rhr/ivy) installed and working. You'll also need an active Internet connection to pull from Phylografter and access the [NCBI](ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/) and [OTT](http://files.opentreeoflife.org/ott/) servers. 
 
 
 <H3><STRONG>Example Use:</H3></STRONG>
