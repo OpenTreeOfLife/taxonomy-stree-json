@@ -5,17 +5,16 @@ JSON files for visualizing source trees aligned to taxonomies in [Phylografter](
 
 
 <H3><STRONG>Example Setup 1:</H3></STRONG>
-<ol>
-<li>Download the taxonomy-stree-json project. The easiest way to do this is change directories to your /path/to/phylografter/static directory, and do a `git clone https://github.com/OpenTreeOfLife/taxonomy-stree-json`. This will clone the entire repository where it needs to be in Phylografter. </li>
-<li>Add this directory to your .gitignore IF you are using git to manage Phylografter, so that you can manage this repo independently. </li>
-</ol>
+1. Download the taxonomy-stree-json project. The easiest way to do this is change directories to your /path/to/phylografter/static directory, and do a `git clone https://github.com/OpenTreeOfLife/taxonomy-stree-json`. This will clone the entire repository where it needs to be in Phylografter.
+2. Add this directory to your .gitignore IF you are using git to manage Phylografter, so that you can manage this repo independently.
+
 <H3><STRONG>Example Setup 2:</H3></STRONG>
-<ol>
-<li>[Download](https://github.com/OpenTreeOfLife/taxonomy-stree-json/archive/master.zip) the entire repository. </li>
-<li>Unzip it in a directory of your choice.</li>
-<li>Open up terminal `Ctl-Alt-T` and `cd /path/to/phylografter/static` directory.</li> 
-<li>Create a symbolic link to your taxonomy-stree-json directory. `ln -s /full/path/to/taxonomy-stree-json .`.</li>
-</ol>
+
+1. [Download](https://github.com/OpenTreeOfLife/taxonomy-stree-json/archive/master.zip) the entire repository.
+2. Unzip it in a directory of your choice. (ie: `unzip taxonomy-stree-json-master.zip -d destination_folder`)
+3. Open up terminal `Ctl-Alt-T` and `cd /path/to/phylografter/static` directory.</li> 
+4. Create a symbolic link to your taxonomy-stree-json directory. `ln -s /full/path/to/taxonomy-stree-json .`.
+
 
 <H3><STRONG>From Scratch:</H3></STRONG>
 
