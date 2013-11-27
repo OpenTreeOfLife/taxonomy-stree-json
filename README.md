@@ -13,7 +13,7 @@ Quick and easy method to grab the JSON files and put them into the correct locat
 
 <H3><STRONG>Example Setup 2:</H3></STRONG>
 
-This method shows how to create a sym-link in the phylografter/static directory so that you can keep the JSON files in whatever location you would like.
+This method shows how to create a sym-link in the `phylografter/static` directory so that you can keep the JSON files in whatever location you prefer.
 
 1. [Download](https://github.com/OpenTreeOfLife/taxonomy-stree-json/archive/master.zip) the entire repository.
 2. Open up terminal: `Ctl-Alt-T`
