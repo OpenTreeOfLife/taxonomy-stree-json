@@ -27,4 +27,4 @@ This method shows how to create a sym-link in the `phylografter/static` director
 If you prefer, you can use the pipeline in the [scripts](https://github.com/OpenTreeOfLife/taxonomy-stree-json/tree/master/scripts) folder to generate your own, more recently updated versions of the JSON files. As a warning though, generating the treecache files and the JSON documents can take quite a bit of time.  
 
 
-You can also use any combination of these approaches, such as as `git clone` the repo into your home directory, and then creating the sym-link to that directory as described in Example Setup 2. Ultimately, as long as the directory is named `taxonomy-stree-json`, and it is in or linked to from the `phylografter/static` directory it should all work.  
+You can also use any combination of these approaches, such as `git clone` the repo into your home directory, and then creating the sym-link to that directory as described in Example Setup 2. Ultimately, as long as the directory is named `taxonomy-stree-json`, and it is in or linked from the `phylografter/static` directory it should all work.  
