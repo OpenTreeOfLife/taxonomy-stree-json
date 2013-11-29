@@ -27,7 +27,7 @@ def build_json(choice):
         g = tg.load_taxonomy_graph('taxonomy/ott2.2/ott2.2.xml.gz')
         print "OTT taxonomy Graph loaded successfully."
         print "Loading ott-treecache file..."
-        datafile = open('trees/ott-treecache-test.txt', 'r') #read in the treecache file
+        datafile = open('trees/ott-treecache.txt', 'r') #read in the treecache file
         print "Loaded."
 
     elif choice == "2":
@@ -36,7 +36,7 @@ def build_json(choice):
         g = tg.load_taxonomy_graph('taxonomy/ncbi/ncbi.xml.gz')
         print "NCBI taxonomy Graph loaded successfully."
         print "Loading ncbi-treecache file..."
-        datafile = open('trees/ncbi-treecache-test.txt', 'r') #read in the treecache file
+        datafile = open('trees/ncbi-treecache.txt', 'r') #read in the treecache file
         print "Loaded."
     
     data = []
